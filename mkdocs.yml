@@ -1,15 +1,10 @@
 # Project information
 site_name: 水箱档案馆
-site_url: https://dreamskycx.github.io/waterbox/
-site_author: Dreamskycx
-
-
-# Repository
-repo_name: dreamskycx/waterbox
-repo_url: https://github.com/dreamskycx/waterbox
+site_url: https://waterboxwiki.github.io
+site_author: WaterboxEditor
 
 # Copyright
-copyright: Copyright &copy; 2022 Dreamskycx
+copyright: Copyright &copy; 2022-2023 Waterbox
 
 theme:
 
@@ -62,8 +57,6 @@ theme:
 plugins:
   - search:
       separator: '[\s\u200b\-]'
-  - minify:
-      minify_html: true
 
 markdown_extensions:
   - admonition
@@ -76,14 +69,6 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/dreamskycx/waterbox
-      name: 水箱档案馆开源
-    - icon: fontawesome/brands/qq
-      link: https://jq.qq.com/?_wv=1027&k=WrW83q3O
-      name: 水箱游戏交流群（538229336）
 
 # Page tree
 nav:
@@ -94,13 +79,9 @@ nav:
     - 文案疑似错误报告: waterbox/wrongword.md
   - 文案整理:
     - 剧情文案: article/article.md
-    - 剧情推理: article/inference.md
     - 隐藏文案:  article/hidden.md
     - 等价执行目录: article/execution.md
-  - 优秀二创:
+  - 喵喵喵？:
     - 水箱生日会2023: recreation/birthday2023.md
     - 沙雕执行文案: recreation/wrongexecution.md
-    - 水箱世界观（科技版本）: recreation/worldoutlook.md
     - 大小姐水箱奇遇记: recreation/Zerowind.md
-  - 活动:
-    - 水箱集会-灯塔: activity/board.md
